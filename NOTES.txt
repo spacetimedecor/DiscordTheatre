@@ -1,0 +1,38 @@
+I guess bash is not necessary after all.
+Applescript can handle everything here.
+
+//
+What does it need to handle?
+//
+- Closing previous Chromium instances.
+- Starting new Chromium instances using args.
+- Each Chromium instances should load discord
+- Each Chromium instance should have its own
+account that it should log in with.
+- Each Chrome / Discord instance should connect to
+local audio system.
+
+/////////
+Discord convo with many accounts, all listening for silence and producing sound
+
+
+You need lots of accounts and an audio device with many channels of in and out that can be routed,
+perhaps you’d need multiple audio devices (virtual)? They’re all listening to shared room, waiting
+for silence and interruption.
+
+Craig records each audio channel separately and will be essential to this:
+https://craig.chat/home/
+
+open -a "Google Chrome" --args --profile-directory=Default
+
+//
+If can’t use Chromium instances, may need to access Discord directly instead:
+https://discordjs.guide/voice/receiving-audio.html
+//
+
+Supercollider
+https://github.com/enrike/onsets_silence_detection_supercollider/blob/master/onset_detection.scd
+
+https://doc.sccode.org/Classes/DetectSilence.html
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "chromiums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controlInstances.js",
+  "scripts": {
+    "run": "node controlInstances.js POOP",
+    "start": "sh startInstances.sh 6",
+    "start2": "osascript pureApplescript.scpt 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacetimedecor/DiscordTheatre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacetimedecor/DiscordTheatre/issues"
+  },
+  "homepage": "https://github.com/spacetimedecor/DiscordTheatre#readme",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6"
+  }
+}
